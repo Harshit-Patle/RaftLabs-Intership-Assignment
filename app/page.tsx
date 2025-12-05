@@ -30,7 +30,7 @@ export default async function Home({ searchParams }: Props) {
     title = "Top 250 Movies from TMDB";
   }
 
-  const imageBase = process.env.NEXT_PUBLIC_TMDB_IMAGE_BASE;
+  const imageBase = 'https://image.tmdb.org/t/p/w500';
 
   return (
     <main className="min-h-screen p-8 bg-slate-950 text-white flex flex-col">

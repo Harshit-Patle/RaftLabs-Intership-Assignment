@@ -19,7 +19,7 @@ export default async function MoviePage({ params }: Props) {
     const resolvedParams = await params;
     const id = resolvedParams.id;
     const movie = await getMovie(id);
-    const imageBase = process.env.NEXT_PUBLIC_TMDB_IMAGE_BASE;
+    const imageBase = 'https://image.tmdb.org/t/p/original';
 
     const hours = Math.floor(movie.runtime / 60);
     const minutes = movie.runtime % 60;
