@@ -4,7 +4,7 @@ A modern, responsive movie directory built with **Next.js 14**, **Tailwind CSS**
 Submitted for the RaftLabs Software Developer Intern Assessment.
 
 ## 🚀 Live Demo
-[Insert your Vercel URL here]
+[Cinema Directory](https://raft-labs-intership-assignment.vercel.app/)
 
 ## 🛠 Tech Stack
 * **Framework:** Next.js 14 (App Router)

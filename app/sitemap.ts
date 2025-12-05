@@ -1,7 +1,7 @@
 import { getTopRatedMovies } from '@/lib/tmdb';
 import { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://your-vercel-project.vercel.app';
+const BASE_URL = 'https://raft-labs-intership-assignment.vercel.app';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
