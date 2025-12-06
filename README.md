@@ -17,6 +17,12 @@ Submitted for the RaftLabs Software Developer Intern Assessment.
 * **Scope:** Top 250 Rated Movies (Fetched via Pagination)
 * **Data Handling:** I used server-side fetching with `revalidate: 3600` (ISR) to cache the data for performance while keeping it fresh, avoiding the need for a server database.
 
+## 🚀 Features & Scope
+* **Top 250 Movies:** Implemented pagination to fetch the top rated movies dynamically.
+* **Search & Filter:** Users can search by title or filter by specific genres.
+* **Permutations:** The app generates unique views based on genre filters (e.g., /?genre=28 for Action).
+* **Static Generation:** Utilized `generateStaticParams` for the detail pages to ensure blazing fast load times.
+
 ## 🤖 AI Usage & Prompts
 I leveraged AI (Gemini/ChatGPT) to accelerate development. Here are the key prompts used:
 
